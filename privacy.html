@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chính sách quyền riêng tư của ứng dụng Từ Vựng Chủ Động.">
+  <title>Chính sách quyền riêng tư — Từ Vựng Chủ Động</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.65; color: #172033; background: #f5f7fb; }
+    body { margin: 0; }
+    main { box-sizing: border-box; max-width: 820px; margin: 36px auto; padding: 32px; background: white; border: 1px solid #e5eaf2; border-radius: 16px; }
+    h1, h2 { line-height: 1.25; }
+    h1 { margin-top: 0; }
+    h2 { margin-top: 2em; font-size: 1.2rem; }
+    p, li { color: #39445a; }
+    a { color: #2457c5; }
+    .updated { color: #647089; font-size: .95rem; }
+    .language { border-top: 1px solid #e5eaf2; margin-top: 40px; padding-top: 8px; }
+    @media (max-width: 600px) { main { margin: 0; padding: 24px 18px; border: 0; border-radius: 0; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Chính sách quyền riêng tư</h1>
+  <p><strong>Từ Vựng Chủ Động</strong> — ứng dụng học từ Anh–Việt.</p>
+  <p class="updated">Cập nhật lần cuối: 4 tháng 11, 2026</p>
+
+  <h2>Dữ liệu của bạn được lưu ở đâu?</h2>
+  <p>Ứng dụng chạy ngay trong trình duyệt, không có máy chủ riêng để nhận dữ liệu của bạn. Danh sách từ và trạng thái đồng bộ được lưu trên thiết bị bạn đang dùng. Nếu bạn kết nối Google Drive, ứng dụng lưu thêm một bản sao gồm ID của mỗi mục, từ tiếng Anh, nghĩa tiếng Việt và thông tin cần thiết để đồng bộ, ghi nhận mục đã xóa và xử lý xung đột. Bản sao này nằm trong thư mục dữ liệu riêng của ứng dụng trên Drive (<code>appDataFolder</code>).</p>
+  <p>Ứng dụng không tải ví dụ, ghi chú, lịch sử học hay kết quả luyện tập lên Drive. Tệp JSON/CSV chỉ được tạo hoặc đọc khi bạn tự chọn xuất hoặc nhập dữ liệu.</p>
+
+  <h2>Khi bạn kết nối Google</h2>
+  <p>Ứng dụng lấy email và mã nhận diện tài khoản từ Google để biết bạn đang đồng bộ bằng tài khoản nào và hiển thị tài khoản đó. Ứng dụng chỉ xin quyền <code>openid</code>, <code>userinfo.email</code> và <code>drive.appdata</code>. Quyền Drive chỉ dùng cho thư mục dữ liệu riêng của ứng dụng; ứng dụng không xin quyền đọc toàn bộ Drive. Mã truy cập Google chỉ được giữ tạm trong bộ nhớ khi trang đang mở, không được lưu vào bộ nhớ lâu dài của trình duyệt.</p>
+  <p>Danh sách từ được gửi thẳng từ trình duyệt của bạn tới Google Drive. Nhà phát triển không nhận hoặc lưu danh sách từ của bạn trên máy chủ riêng.</p>
+
+  <h2>Dịch vụ bên ngoài</h2>
+  <p>Trang web được lưu trữ trên GitHub Pages. Ứng dụng dùng dịch vụ đăng nhập và Drive của Google, Google Fonts và Tailwind CSS để hoạt động và hiển thị. Các dịch vụ này có thể nhận thông tin kết nối thông thường như địa chỉ IP, loại trình duyệt và thời điểm truy cập; cách họ sử dụng thông tin đó được nêu trong chính sách riêng của họ. Ứng dụng không có quảng cáo hoặc công cụ theo dõi, phân tích người dùng.</p>
+
+  <h2>Cách xóa dữ liệu</h2>
+  <ul>
+    <li>Dữ liệu cục bộ có thể được xóa bằng cách xóa dữ liệu trang web của ứng dụng trong trình duyệt. Hãy xuất bản sao lưu trước nếu bạn muốn giữ danh sách từ.</li>
+    <li>Bản đồng bộ trên Drive nằm trong thư mục dữ liệu riêng của ứng dụng. Hiện ứng dụng chưa có nút xóa toàn bộ bản này; bạn có thể xóa dữ liệu ứng dụng trong phần quản lý ứng dụng của Google Drive. Google cho biết dữ liệu này cũng bị xóa khi bạn gỡ ứng dụng khỏi My Drive. Xem <a href="https://developers.google.com/workspace/drive/api/guides/appdata">hướng dẫn của Google về thư mục appDataFolder</a>.</li>
+  </ul>
+
+  <h2>Liên hệ</h2>
+  <p>Nếu có câu hỏi về quyền riêng tư hoặc dữ liệu, liên hệ <a href="mailto:khainam121@gmail.com">khainam121@gmail.com</a>.</p>
+
+  <section class="language" lang="en">
+    <h1>Privacy Policy</h1>
+    <p><strong>Active Vocabulary</strong> (Từ Vựng Chủ Động) is an English–Vietnamese vocabulary learning app.</p>
+    <p class="updated">Last updated: November 4, 2026</p>
+
+    <h2>Where your data is stored</h2>
+    <p>The app runs in your browser and has no separate server that receives your data. Your vocabulary list and sync status stay on the device you use. If you connect Google Drive, the app also saves a copy containing each item's ID, English word, Vietnamese meaning, and the information needed to sync changes, remember deletions, and handle conflicts. This copy is stored in the app's private data folder in Drive (<code>appDataFolder</code>).</p>
+    <p>Examples, notes, study history, and practice results are not uploaded to Drive. JSON/CSV files are only created or read when you choose to export or import data.</p>
+
+    <h2>When you connect Google</h2>
+    <p>The app gets your email address and account identifier from Google so it can tell which account is syncing and display that account. It requests only the <code>openid</code>, <code>userinfo.email</code>, and <code>drive.appdata</code> scopes. Drive access is limited to the app's private data folder; the app does not request access to your entire Drive. The Google access token is held temporarily in memory while the page is open and is not saved in the browser's long-term storage.</p>
+    <p>Your vocabulary list is sent directly from your browser to Google Drive. The developer does not receive or keep a copy on a separate server.</p>
+
+    <h2>Third-party services</h2>
+    <p>The site is hosted on GitHub Pages. It uses Google's sign-in and Drive services, Google Fonts, and Tailwind CSS. These services may receive routine connection information such as your IP address, browser type, and visit time; their own privacy policies explain how they use it. The app has no ads or user-tracking analytics.</p>
+
+    <h2>How to delete your data</h2>
+    <ul>
+      <li>Local data can be removed by clearing this app's site data in your browser. Export a backup first if you want to keep your vocabulary list.</li>
+      <li>The synced copy stays in the app's private Drive data folder. The app does not currently have a button to delete this entire copy; you can remove the app data in Google Drive's app management settings. Google also states that this data is deleted when you uninstall the app from My Drive. See Google's <a href="https://developers.google.com/workspace/drive/api/guides/appdata">appDataFolder guide</a>.</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>For privacy or data questions, contact <a href="mailto:khainam121@gmail.com">khainam121@gmail.com</a>.</p>
+  </section>
+</main>
+</body>
+</html>
